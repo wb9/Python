@@ -18,6 +18,7 @@ def tabliczka():
     skomplikowanie_koszt = skomplikowanie / 10 + 1
 
     cena_koncowa = float ((cena_za_wymiar + cena_stala + cena_za_ciece + cena_za_ilosc_kolorow) * skomplikowanie_koszt)
+    print("")
     print ("Cena za wymiar tabliczki " + str(cena_za_wymiar) + "zł, koszt za cięcie " +	str(cena_za_ciece) +
     "zł. Stały koszt za jeden kolor to 10 zł. Mnożnik kosztu za poziom skomplikowania to " + str(skomplikowanie_koszt) + ". Stały koszt za rozpoczęcie pracy to 10 zł.")
 
